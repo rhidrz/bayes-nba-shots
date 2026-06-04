@@ -5,12 +5,13 @@ format:
   html:
     toc: true
     toc-depth: 3
-    code-fold: show
-    theme: cosmo
+    theme: darkly
+    code-fold: true
 execute:
   warning: false
   message: false
   echo: true
+  code-fold: true
 ---
 
 # Research question
