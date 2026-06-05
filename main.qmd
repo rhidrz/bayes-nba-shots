@@ -689,7 +689,7 @@ bind_cols(new_shots, as.data.frame(preds)) |>
 
 These predictions are posterior summaries of the probability of making a shot, accounting for uncertainty in both the fixed effects and player effects.
 
-## Prediction intervals for future shot outcomes
+# Prediction intervals for future shot outcomes
 
 Credible intervals describe uncertainty about the unknown probability of making a shot. Prediction intervals describe uncertainty in future observed outcomes. Because a single future field goal attempt is binary, the posterior predictive distribution is made of 0s and 1s. Therefore, single-shot prediction intervals can look wide and discrete even when the predicted make probability is estimated fairly precisely.
 
